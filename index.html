@@ -1,0 +1,13 @@
+<script>
+	function loadfiles() {
+		var files = 30;
+		document.open();
+		document.write("<ul>");
+		for (var i = 1; i <= files; i++) {
+			document.write("<li><a href=\"" + i + ".html\">" + i + "</a></li>");
+		}
+		document.write("</ul>");
+		document.close();
+	}
+</script>
+<body onload="loadfiles()"></body>
