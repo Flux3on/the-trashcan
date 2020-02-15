@@ -1,8 +1,9 @@
 <script>
 	//bruh moment
 	function loadfiles() {
-		var files = 30;
+		var files = 1;
 		document.open();
+		document.write("<h1>List of documents</h1>");
 		document.write("<ul>");
 		for (var i = 1; i <= files; i++) {
 			document.write("<li><a href=\"" + i + ".html\">" + i + "</a></li>");
